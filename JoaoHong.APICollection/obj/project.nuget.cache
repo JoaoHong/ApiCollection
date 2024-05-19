@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "hmDNnEJjVcnIJzn9vPUgLEnSgYxPqiytckAOMtEq+wKim8oaZ3Lnz+n16uysO9s4DIy+pwPTlJJB563Yhik33w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joaop\\source\\repos\\JoaoHong\\ApiCollection\\JoaoHong.APICollection\\JoaoHong.APICollection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaop\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\joaop\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\joaop\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\joaop\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.6.1\\swashbuckle.aspnetcore.annotations.6.6.1.nupkg.sha512",
+    "C:\\Users\\joaop\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.1\\swashbuckle.aspnetcore.swagger.6.6.1.nupkg.sha512",
+    "C:\\Users\\joaop\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.1\\swashbuckle.aspnetcore.swaggergen.6.6.1.nupkg.sha512",
+    "C:\\Users\\joaop\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
