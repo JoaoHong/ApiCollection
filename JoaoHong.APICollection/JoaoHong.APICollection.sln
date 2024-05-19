@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoaoHong.APICollection", "JoaoHong.APICollection\JoaoHong.APICollection.csproj", "{AB08F8D8-C940-4458-99D6-0BA9A45C4D89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoaoHong.APICollection", "JoaoHong.APICollection\JoaoHong.APICollection.csproj", "{AB08F8D8-C940-4458-99D6-0BA9A45C4D89}"
+	ProjectSection(ProjectDependencies) = postProject
+		{348FA469-A132-42FD-8F8F-9CE4BD954813} = {348FA469-A132-42FD-8F8F-9CE4BD954813}
+		{9A5F884B-C010-405D-AF95-7DF625596489} = {9A5F884B-C010-405D-AF95-7DF625596489}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driving", "Driving", "{A265CCC8-E418-4E24-AC5F-0D6698BE4E4C}"
 EndProject
@@ -11,11 +15,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driven", "Driven", "{FB5AF7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{92FD9A97-3FCA-4FF4-87C9-5FA1550B87EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoaoHong.APICollection.Application", "JoaoHong.APICollection.Application\JoaoHong.APICollection.Application.csproj", "{9A5F884B-C010-405D-AF95-7DF625596489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoaoHong.APICollection.Application", "JoaoHong.APICollection.Application\JoaoHong.APICollection.Application.csproj", "{9A5F884B-C010-405D-AF95-7DF625596489}"
+	ProjectSection(ProjectDependencies) = postProject
+		{348FA469-A132-42FD-8F8F-9CE4BD954813} = {348FA469-A132-42FD-8F8F-9CE4BD954813}
+		{6B7474D4-0771-4071-AF6D-A7CBB03544EB} = {6B7474D4-0771-4071-AF6D-A7CBB03544EB}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoaoHong.APICollection.Domain", "JoaoHong.APICollection.Domain\JoaoHong.APICollection.Domain.csproj", "{6B7474D4-0771-4071-AF6D-A7CBB03544EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoaoHong.APICollection.Domain", "JoaoHong.APICollection.Domain\JoaoHong.APICollection.Domain.csproj", "{6B7474D4-0771-4071-AF6D-A7CBB03544EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoaoHong.APICollection.Infrastructure", "JoaoHong.APICollection.Infrastructure\JoaoHong.APICollection.Infrastructure.csproj", "{348FA469-A132-42FD-8F8F-9CE4BD954813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoaoHong.APICollection.Infrastructure", "JoaoHong.APICollection.Infrastructure\JoaoHong.APICollection.Infrastructure.csproj", "{348FA469-A132-42FD-8F8F-9CE4BD954813}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B7474D4-0771-4071-AF6D-A7CBB03544EB} = {6B7474D4-0771-4071-AF6D-A7CBB03544EB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,19 +35,15 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AB08F8D8-C940-4458-99D6-0BA9A45C4D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB08F8D8-C940-4458-99D6-0BA9A45C4D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB08F8D8-C940-4458-99D6-0BA9A45C4D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB08F8D8-C940-4458-99D6-0BA9A45C4D89}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A5F884B-C010-405D-AF95-7DF625596489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A5F884B-C010-405D-AF95-7DF625596489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A5F884B-C010-405D-AF95-7DF625596489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A5F884B-C010-405D-AF95-7DF625596489}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6B7474D4-0771-4071-AF6D-A7CBB03544EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B7474D4-0771-4071-AF6D-A7CBB03544EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B7474D4-0771-4071-AF6D-A7CBB03544EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B7474D4-0771-4071-AF6D-A7CBB03544EB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{348FA469-A132-42FD-8F8F-9CE4BD954813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{348FA469-A132-42FD-8F8F-9CE4BD954813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{348FA469-A132-42FD-8F8F-9CE4BD954813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{348FA469-A132-42FD-8F8F-9CE4BD954813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection

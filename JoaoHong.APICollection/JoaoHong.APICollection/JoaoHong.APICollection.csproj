@@ -8,6 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JoaoHong.APICollection.Application\JoaoHong.APICollection.Application.csproj" />
+    <ProjectReference Include="..\JoaoHong.APICollection.Infrastructure\JoaoHong.APICollection.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

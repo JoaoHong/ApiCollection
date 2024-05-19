@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\joaoh\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\joaop\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaoh\\OneDrive\\Documentos\\GitHub\\ApiCollection\\JoaoHong.APICollection\\JoaoHong.APICollection.Domain\\JoaoHong.APICollection.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\joaop\\Source\\Repos\\JoaoHong\\ApiCollection\\JoaoHong.APICollection\\JoaoHong.APICollection.Domain\\JoaoHong.APICollection.Domain.csproj",
       "projectName": "JoaoHong.APICollection.Domain",
-      "projectPath": "C:\\Users\\joaoh\\OneDrive\\Documentos\\GitHub\\ApiCollection\\JoaoHong.APICollection\\JoaoHong.APICollection.Domain\\JoaoHong.APICollection.Domain.csproj",
-      "packagesPath": "C:\\Users\\joaoh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaoh\\OneDrive\\Documentos\\GitHub\\ApiCollection\\JoaoHong.APICollection\\JoaoHong.APICollection.Domain\\obj\\",
+      "projectPath": "C:\\Users\\joaop\\Source\\Repos\\JoaoHong\\ApiCollection\\JoaoHong.APICollection\\JoaoHong.APICollection.Domain\\JoaoHong.APICollection.Domain.csproj",
+      "packagesPath": "C:\\Users\\joaop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joaop\\Source\\Repos\\JoaoHong\\ApiCollection\\JoaoHong.APICollection\\JoaoHong.APICollection.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\joaoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\joaop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -71,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

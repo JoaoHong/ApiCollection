@@ -1,3 +1,4 @@
+using JoaoHong.APICollection.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace JoaoHong.APICollection.Controllers

@@ -1,4 +1,4 @@
-namespace JoaoHong.APICollection
+namespace JoaoHong.APICollection.Models
 {
     public class WeatherForecast
     {

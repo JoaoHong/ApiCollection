@@ -9,7 +9,10 @@
 
   <ItemGroup>
     <Folder Include="Ports\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JoaoHong.APICollection.Domain\JoaoHong.APICollection.Domain.csproj" />
+    <ProjectReference Include="..\JoaoHong.APICollection.Infrastructure\JoaoHong.APICollection.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>

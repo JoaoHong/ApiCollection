@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JoaoHong.APICollection.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29145de758d7d3586132594503bfc96e9cf4350e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1d7665ac8f19124601a6fddaf7cff9947949784")]
 [assembly: System.Reflection.AssemblyProductAttribute("JoaoHong.APICollection.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JoaoHong.APICollection.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
